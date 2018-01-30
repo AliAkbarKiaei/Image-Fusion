@@ -1,3 +1,3 @@
-function M = fn_Mutual_Information(X,Y)
-	M = MI_GG(X,Y)
+function M = metric_MI(I1,I2)
+	M = MI_GG(I1,I2)
 end
