@@ -1,0 +1,21 @@
+please download the metrics below and paste all of the files at the root of "fusion metrics" directory (please cite each of used codes):
+
+1. image fusion metrics at link below and paste the files in the root of "fusion metrics" directory:
+https://github.com/zhengliu6699/imageFusionMetrics
+
+2. Qabf fusion metric at link below and delete lines 17, 18, 19. Then paste this code at line 17: pA = double(strA); pB = double(strB); pF = double(strF);
+Name it metric_Qabf.m in the root of "fusion metrics" directory:
+http://de.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/18213/versions/1/previews//Qabf.m/index.html?access_key=
+   
+3. Mutual Information metric at link below and name it metric_MI.m in the root of "fusion metrics" directory:
+http://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/36538/versions/2/previews/MI_GG.m/index.html?access_key= 
+
+
+4. change the line 79 of metricCvejic.m to :        simXYF=sigma_XF./(sigma_XF+sigma_YF+eps);
+
+5. change the line 28 of metricYang.m to:	ramda=sigma1_sq1./(sigma1_sq1+sigma2_sq1+eps);
+
+
+
+
+
